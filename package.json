@@ -62,7 +62,7 @@
     "paypal-rest-sdk": "^1.7.1",
     "postcss": "^5.2.14",
     "postcss-js": "^0.3.0",
-    "prerender-node": "^2.7.0",
+    "prerender-node": "^3.0.0",
     "radium": "^0.18.1",
     "react": "^15.4.2",
     "react-addons-create-fragment": "^15.4.2",
