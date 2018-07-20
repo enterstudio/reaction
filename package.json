@@ -62,7 +62,7 @@
     "paypal-rest-sdk": "^1.7.1",
     "postcss": "^5.2.14",
     "postcss-js": "^0.3.0",
-    "prerender-node": "^2.7.0",
+    "prerender-node": "^3.0.0",
     "radium": "^0.18.1",
     "react": "^15.4.2",
     "react-addons-create-fragment": "^15.4.2",
@@ -91,7 +91,7 @@
     "tether-drop": "^1.4.2",
     "tether-tooltip": "^1.2.0",
     "transliteration": "^1.5.3",
-    "twilio": "^2.11.1",
+    "twilio": "^3.17.1",
     "url": "^0.11.0",
     "velocity-animate": "^1.4.3",
     "velocity-react": "^1.2.1"
