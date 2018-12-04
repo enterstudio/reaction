@@ -24,8 +24,8 @@
     "autoprefixer": "^6.7.4",
     "autosize": "^3.0.20",
     "babel-runtime": "^6.23.0",
-    "bcrypt": "^1.0.2",
-    "bootstrap": "^3.3.7",
+    "bcrypt": "^1.0.3",
+    "bootstrap": "^4.0.0",
     "braintree": "^2.0.2",
     "bunyan": "^1.8.5",
     "bunyan-format": "^0.2.1",
@@ -49,10 +49,10 @@
     "jquery": "^3.1.1",
     "jquery-i18next": "^1.2.0",
     "later": "^1.2.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.5",
     "lodash.pick": "^4.4.0",
     "meteor-node-stubs": "^0.2.5",
-    "moment": "^2.17.1",
+    "moment": "^2.19.3",
     "moment-timezone": "^0.5.11",
     "nexmo": "^1.2.0",
     "node-geocoder": "^3.16.0",
@@ -85,16 +85,17 @@
     "react-textarea-autosize": "^4.0.5",
     "shippo": "^1.2.0",
     "sortablejs": "^1.5.0",
-    "stripe": "^4.15.0",
+    "stripe": "^4.15.1",
     "sweetalert2": "^6.4.2",
     "swiper": "^3.4.1",
     "tether-drop": "^1.4.2",
     "tether-tooltip": "^1.2.0",
     "transliteration": "^1.5.3",
-    "twilio": "^2.11.1",
+    "twilio": "^3.17.1",
     "url": "^0.11.0",
     "velocity-animate": "^1.4.3",
-    "velocity-react": "^1.2.1"
+    "velocity-react": "^1.4.0",
+    "snyk": "^1.113.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
@@ -124,6 +125,9 @@
     "open-report": "cd && allure report open",
     "del-report": "rm -rf ~/allure-report && rm -rf allure-results",
     "test-local": "wdio tests/runner/local.conf.js",
-    "test-browserstack": "wdio tests/runner/browserstack.conf.js; kill $(ps aux | grep '[b]rowserstack' | awk '{print $2}')"
-  }
+    "test-browserstack": "wdio tests/runner/browserstack.conf.js; kill $(ps aux | grep '[b]rowserstack' | awk '{print $2}')",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
