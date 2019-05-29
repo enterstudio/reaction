@@ -1,0 +1,37 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - npm-shrinkwrap > npm > node-gyp > path-array > array-index > debug:
+        patched: '2019-05-29T23:50:18.739Z'
+  'npm:hoek:20180212':
+    - bunyan-loggly > loggly > request > hawk > boom > hoek:
+        patched: '2019-05-29T23:50:18.739Z'
+    - bunyan-loggly > loggly > request > hawk > hoek:
+        patched: '2019-05-29T23:50:18.739Z'
+    - nexmo > jsonwebtoken > joi > topo > hoek:
+        patched: '2019-05-29T23:50:18.739Z'
+    - npm-shrinkwrap > npm > request > hawk > hoek:
+        patched: '2019-05-29T23:50:18.739Z'
+    - bunyan-loggly > loggly > request > hawk > sntp > hoek:
+        patched: '2019-05-29T23:50:18.739Z'
+    - npm-shrinkwrap > npm > request > hawk > sntp > hoek:
+        patched: '2019-05-29T23:50:18.739Z'
+    - nexmo > jsonwebtoken > joi > hoek:
+        patched: '2019-05-29T23:50:18.739Z'
+    - npm-shrinkwrap > npm > request > hawk > boom > hoek:
+        patched: '2019-05-29T23:50:18.739Z'
+    - npm-shrinkwrap > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-29T23:50:18.739Z'
+    - bunyan-loggly > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-29T23:50:18.739Z'
+  'npm:ms:20170412':
+    - npm-shrinkwrap > npm > node-gyp > path-array > array-index > debug > ms:
+        patched: '2019-05-29T23:50:18.739Z'
+  'npm:tunnel-agent:20170305':
+    - bunyan-loggly > loggly > request > tunnel-agent:
+        patched: '2019-05-29T23:50:18.739Z'
+    - npm-shrinkwrap > npm > request > tunnel-agent:
+        patched: '2019-05-29T23:50:18.739Z'
