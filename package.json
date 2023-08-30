@@ -40,7 +40,7 @@
     "flatten-obj": "^3.1.0",
     "font-awesome": "^4.7.0",
     "griddle-react": "^0.7.1",
-    "handlebars": "^4.0.6",
+    "handlebars": "^4.0.12",
     "i18next": "7.0.1",
     "i18next-browser-languagedetector": "^1.0.1",
     "i18next-localstorage-cache": "^1.1.0",
@@ -94,7 +94,8 @@
     "twilio": "^2.11.1",
     "url": "^0.11.0",
     "velocity-animate": "^1.4.3",
-    "velocity-react": "^1.2.1"
+    "velocity-react": "^1.2.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
@@ -124,6 +125,9 @@
     "open-report": "cd && allure report open",
     "del-report": "rm -rf ~/allure-report && rm -rf allure-results",
     "test-local": "wdio tests/runner/local.conf.js",
-    "test-browserstack": "wdio tests/runner/browserstack.conf.js; kill $(ps aux | grep '[b]rowserstack' | awk '{print $2}')"
-  }
+    "test-browserstack": "wdio tests/runner/browserstack.conf.js; kill $(ps aux | grep '[b]rowserstack' | awk '{print $2}')",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
