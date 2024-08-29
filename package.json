@@ -59,7 +59,7 @@
     "nodemailer": "^2.7.2",
     "nodemailer-wellknown": "^0.2.1",
     "npm-shrinkwrap": "^6.0.2",
-    "paypal-rest-sdk": "^1.7.1",
+    "paypal-rest-sdk": "^1.8.1",
     "postcss": "^5.2.14",
     "postcss-js": "^0.3.0",
     "prerender-node": "^2.7.0",
