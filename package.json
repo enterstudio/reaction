@@ -56,7 +56,7 @@
     "moment-timezone": "^0.5.11",
     "nexmo": "^1.2.0",
     "node-geocoder": "^3.16.0",
-    "nodemailer": "^2.7.2",
+    "nodemailer": "^4.0.1",
     "nodemailer-wellknown": "^0.2.1",
     "npm-shrinkwrap": "^6.0.2",
     "paypal-rest-sdk": "^1.7.1",
